@@ -14,8 +14,8 @@ Tsumikiプロジェクトへのコントリビューションをありがとう�
 1. リポジトリをフォークしてクローンします：
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tsumiki.git
-cd tsumiki
+git clone https://github.com/YOUR_USERNAME/tsumiki_.gitgemini
+cd tsumiki_gemini
 ```
 
 2. 依存関係をインストールします：
@@ -122,7 +122,7 @@ pnpm fix
 ## プロジェクト構造
 
 ```
-tsumiki/
+tsumiki_gemini/
 ├── src/
 │   ├── cli.ts              # CLIエントリーポイント
 │   └── commands/
@@ -158,7 +158,7 @@ git push origin feature/your-feature-name
 
 ## Issue報告
 
-バグ報告や機能要望は[Issues](https://github.com/classmethod/tsumiki/issues)で受け付けています。
+バグ報告や機能要望は[Issues](https://github.com/R7038XX/tsumiki_gemini/issues)で受け付けています。
 
 ### バグ報告
 
@@ -189,7 +189,7 @@ git push origin feature/your-feature-name
 
 ## 質問・サポート
 
-- [Issues](https://github.com/classmethod/tsumiki/issues) - バグ報告、機能要望
-- [Discussions](https://github.com/classmethod/tsumiki/discussions) - 質問、議論
+- [Issues](https://github.com/R7038XX/tsumiki_gemini/issues) - バグ報告、機能要望
+- [Discussions](https://github.com/R7038XX/tsumiki_gemini/discussions) - 質問、議論
 
 コントリビューションをお待ちしています！
