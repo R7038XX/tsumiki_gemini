@@ -9,17 +9,17 @@ const program = new Command();
 
 program
   .name("tsumiki")
-  .description("CLI tool for installing Claude Code command templates")
+  .description("CLI tool for installing Gemini CLI command templates")
   .version("1.0.0");
 
 program
   .command("install")
-  .description("Install Claude Code command templates to .claude/commands/")
+  .description("Install Gemini CLI command templates to .gemini/commands/")
   .action(installCommand);
 
 program
   .command("uninstall")
-  .description("Uninstall Claude Code command templates from .claude/commands/")
+  .description("Uninstall Gemini CLI command templates from .gemini/commands/")
   .action(uninstallCommand);
 
 program

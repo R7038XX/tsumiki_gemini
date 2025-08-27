@@ -10,7 +10,7 @@
 
 ### 第2章：開発環境とツールセットアップ
 - [2.1 必要なツールとセットアップ](./02-environment/01-tools-setup.md)
-- [2.2 Claude Sonnet 4の活用方法](./02-environment/02-claude-usage.md)
+- [2.2 gemini-2.5-proの活用方法](./02-environment/02-claude-usage.md)
 - [2.3 開発環境とワークフロー構築](./02-environment/03-workflow-setup.md)
 
 ## 第2部：実践編
