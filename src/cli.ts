@@ -14,12 +14,12 @@ program
 
 program
   .command("install")
-  .description("Install Claude Code command templates to .claude/commands/")
+  .description("Install Claude Code command templates to .gemini/commands/")
   .action(installCommand);
 
 program
   .command("uninstall")
-  .description("Uninstall Claude Code command templates from .claude/commands/")
+  .description("Uninstall Claude Code command templates from .gemini/commands/")
   .action(uninstallCommand);
 
 program

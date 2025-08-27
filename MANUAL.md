@@ -7,12 +7,12 @@
 プロジェクトを使用する前に、まず `commands` ディレクトリの内容をClaudeのコマンドディレクトリにコピーします：
 
 ```bash
-# プロジェクトのcommandsディレクトリを.claude/commandsにコピー
-cp -r commands ~/.claude/commands/
+# プロジェクトのcommandsディレクトリを.gemini/commandsにコピー
+cp -r commands ~/.gemini/commands/
 
 # または、プロジェクトディレクトリ内で
-mkdir -p .claude
-cp -r commands .claude/
+mkdir -p .gemini
+cp -r commands .gemini/
 ```
 
 ### TDDコマンド
@@ -259,7 +259,7 @@ Kairoは各タスクに対して内部的にTDDコマンドを使用して以下
 
 ```
 /projects/ai/test18/
-├── .claude/
+├── .gemini/
 │   └── commands/           # Kairoコマンド
 ├── docs/
 │   ├── implements/        # 実装コード

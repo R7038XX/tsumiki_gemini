@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 概要
 
-TsumikiはAI駆動開発フレームワークのコマンドテンプレートを提供するCLIツールです。このプロジェクトはTypeScript + ReactをInkで構成されたCLIアプリケーションで、Claude Code用のコマンドテンプレートをユーザーの`.claude/commands/`ディレクトリにインストールします。
+TsumikiはAI駆動開発フレームワークのコマンドテンプレートを提供するCLIツールです。このプロジェクトはTypeScript + ReactをInkで構成されたCLIアプリケーションで、Claude Code用のコマンドテンプレートをユーザーの`.gemini/commands/`ディレクトリにインストールします。
 
 ## 開発コマンド
 
@@ -53,7 +53,7 @@ pnpm prepare                # simple-git-hooksのセットアップ
 ## インストール動作
 
 `tsumiki install`コマンドは以下を実行します：
-1. 現在のディレクトリに`.claude/commands/`ディレクトリを作成
+1. 現在のディレクトリに`.gemini/commands/`ディレクトリを作成
 2. ビルド済みの`dist/commands/`から全ての`.md`と`.sh`ファイルをコピー
 3. React + Inkでプログレス表示とファイル一覧を表示
 

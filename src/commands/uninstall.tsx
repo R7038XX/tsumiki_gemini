@@ -24,9 +24,9 @@ const UninstallComponent: React.FC = () => {
 
         // 現在のディレクトリを取得
         const currentDir = process.cwd();
-        const targetDir = path.join(currentDir, ".claude", "commands");
+        const targetDir = path.join(currentDir, ".gemini", "commands");
 
-        // .claude/commandsディレクトリが存在するかチェック
+        // .gemini/commandsディレクトリが存在するかチェック
         const dirExists = await fs.pathExists(targetDir);
         if (!dirExists) {
           setStatus("not_found");
@@ -50,7 +50,7 @@ const UninstallComponent: React.FC = () => {
 
         setStatus("removing");
 
-        // .claude/commands内のファイルをチェックして、tsumiki由来のファイルのみ削除
+        // .gemini/commands内のファイルをチェックして、tsumiki由来のファイルのみ削除
         const installedFiles = await fs.readdir(targetDir);
         const removedFilesList: string[] = [];
 
@@ -62,12 +62,12 @@ const UninstallComponent: React.FC = () => {
           }
         }
 
-        // 削除後に.claude/commandsディレクトリが空になったかチェック
+        // 削除後に.gemini/commandsディレクトリが空になったかチェック
         const remainingFiles = await fs.readdir(targetDir);
         if (remainingFiles.length === 0) {
           // 空のディレクトリを削除
           await fs.rmdir(targetDir);
-          // .claudeディレクトリも空の場合は削除
+          // .geminiディレクトリも空の場合は削除
           const claudeDir = path.dirname(targetDir);
           const claudeFiles = await fs.readdir(claudeDir);
           if (claudeFiles.length === 0) {
@@ -125,7 +125,7 @@ const UninstallComponent: React.FC = () => {
     return (
       <Box flexDirection="column">
         <Text color="yellow">
-          ⚠️ .claude/commands ディレクトリが見つかりません
+          ⚠️ .gemini/commands ディレクトリが見つかりません
         </Text>
         <Text color="gray">Tsumikiはインストールされていないようです。</Text>
       </Box>

@@ -10,7 +10,7 @@ Tsumikiを使用するには、次のnpxコマンドでインストールして�
 npx tsumiki install
 ```
 
-このコマンドを実行すると、`.claude/commands/` にTsumikiのClaude Codeスラッシュコマンドがインストールされます。
+このコマンドを実行すると、`.gemini/commands/` にTsumikiのClaude Codeスラッシュコマンドがインストールされます。
 
 ## 概要
 
