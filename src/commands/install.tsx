@@ -23,8 +23,8 @@ const InstallComponent: React.FC = () => {
 
         // 現在のディレクトリを取得
         const currentDir = process.cwd();
-        const commandsTargetDir = path.join(currentDir, ".claude", "commands");
-        const agentsTargetDir = path.join(currentDir, ".claude", "agents");
+        const commandsTargetDir = path.join(currentDir, ".gemini", "commands");
+        const agentsTargetDir = path.join(currentDir, ".gemini", "agents");
 
         // tsumikiのcommandsディレクトリとagentsディレクトリを取得
         const __filename = fileURLToPath(import.meta.url);
@@ -33,7 +33,7 @@ const InstallComponent: React.FC = () => {
         const tsumikiCommandsDir = path.join(__dirname, "commands");
         const tsumikiAgentsDir = path.join(__dirname, "agents");
 
-        // .claude/commandsと.claude/agentsディレクトリが存在しない場合は作成
+        // .gemini/commandsと.gemini/agentsディレクトリが存在しない場合は作成
         await fs.ensureDir(commandsTargetDir);
         await fs.ensureDir(agentsTargetDir);
 

@@ -40,7 +40,7 @@ const GitignoreComponent: React.FC = () => {
 
         // 具体的なファイルパスをルールとして作成
         const rulesToAdd = targetFiles.map(
-          (file) => `.claude/commands/${file}`,
+          (file) => `.gemini/commands/${file}`,
         );
 
         let gitignoreContent = "";
