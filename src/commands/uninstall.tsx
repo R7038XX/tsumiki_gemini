@@ -166,7 +166,7 @@ const UninstallComponent: React.FC = () => {
         ))}
         <Newline />
         <Text color="cyan">
-          TsumikiのClaude Codeコマンドテンプレートが削除されました。
+          TsumikiのGemini CLIコマンドテンプレートが削除されました。
         </Text>
       </Box>
     );

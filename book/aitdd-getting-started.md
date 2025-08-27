@@ -42,7 +42,7 @@ AITDD（AI + Test-Driven Development）は、AIを活用してテスト駆動開
 
 ## 使うツール
 
-### Claude Sonnet 4
+### gemini-2.5-pro
 - メインのAIアシスタント
 - コード生成から品質チェックまで対応
 - プロンプト（指示）の書き方がポイント
@@ -85,7 +85,7 @@ AITDD（AI + Test-Driven Development）は、AIを活用してテスト駆動開
 ## 始めるための3ステップ
 
 ### Step 1: 環境準備
-- Claude Sonnet 4のアカウント取得
+- gemini-2.5-proのアカウント取得
 - 開発環境の整備
 
 ### Step 2: 小さく始める

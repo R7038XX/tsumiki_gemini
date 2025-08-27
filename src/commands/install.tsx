@@ -143,7 +143,7 @@ const InstallComponent: React.FC = () => {
         ))}
         <Newline />
         <Text color="cyan">
-          Claude Codeで以下のようにコマンドを使用できます:
+          Gemini CLIで以下のようにコマンドを使用できます:
         </Text>
         <Text color="white"> /tdd-requirements</Text>
         <Text color="white"> /kairo-design</Text>

@@ -1,10 +1,10 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Gemini CLI when working with code in this repository.
 
 ## 概要
 
-TsumikiはAI駆動開発フレームワークのコマンドテンプレートを提供するCLIツールです。このプロジェクトはTypeScript + ReactをInkで構成されたCLIアプリケーションで、Claude Code用のコマンドテンプレートをユーザーの`.gemini/commands/`ディレクトリにインストールします。
+TsumikiはAI駆動開発フレームワークのコマンドテンプレートを提供するCLIツールです。このプロジェクトはTypeScript + ReactをInkで構成されたCLIアプリケーションで、Gemini CLI用のコマンドテンプレートをユーザーの`.gemini/commands/`ディレクトリにインストールします。
 
 ## 開発コマンド
 
@@ -30,7 +30,7 @@ pnpm prepare                # simple-git-hooksのセットアップ
 
 - **`src/cli.ts`**: CLIエントリーポイント、commanderを使用してコマンド定義
 - **`src/commands/install.tsx`**: React + Inkを使用したインストールコマンドのUI実装
-- **`commands/`**: TsumikiのAI開発フレームワーク用Claude Codeコマンドテンプレート（`.md`と`.sh`ファイル）
+- **`commands/`**: TsumikiのAI開発フレームワーク用Gemini CLIコマンドテンプレート（`.md`と`.sh`ファイル）
 - **`dist/`**: ビルド出力、`dist/commands/`にテンプレートがコピーされる
 
 ## 技術スタック

@@ -451,7 +451,7 @@ git reset --hard <commit-hash>  # 特定のコミットまで戻る
 ### 最終チェックリスト
 
 - [ ] **基本ツール**
-  - [ ] Claude Sonnet 4 (Claude Code) が利用可能
+  - [ ] gemini-2.5-pro (Gemini CLI) が利用可能
   - [ ] VS Code が適切に設定済み
   - [ ] Git リポジトリが初期化済み
 
@@ -479,9 +479,9 @@ npm run test:coverage        # カバレッジ確認
 git status                   # Git状態確認
 git log --oneline -5         # 最近のコミット確認
 
-# Claude Codeとの連携確認
+# Gemini CLIとの連携確認
 # VS Code でプロジェクトを開く
-# Claude Code プラグインが正常に動作するか確認
+# Gemini CLI プラグインが正常に動作するか確認
 # 簡単なテストケース作成をAIに依頼して動作確認
 ```
 
@@ -489,7 +489,7 @@ git log --oneline -5         # 最近のコミット確認
 
 #### よくある問題と解決策
 
-**Claude Code に接続できない**
+**Gemini CLI に接続できない**
 ```bash
 # 認証の確認
 # Proプランの有効性確認
@@ -517,7 +517,7 @@ git config --global user.email "your.email@example.com"
 第2章では、AITDDを実践するための包括的な開発環境の構築方法を学習しました。重要なポイントは以下の通りです：
 
 ### 主要な成果
-1. **ツールセットアップ**: Claude Sonnet 4を中心とした開発環境の構築
+1. **ツールセットアップ**: gemini-2.5-proを中心とした開発環境の構築
 2. **ワークフロー設計**: TODO管理からGitフローまでの体系的なプロセス
 3. **品質管理基盤**: テスト環境、ログ、デバッグ機能の整備
 
