@@ -23,7 +23,7 @@ AITDDの核心となるgemini-2.5-proの効果的な活用方法について説�
 1. **Gemini CLIの起動**
    ```bash
    # VS Code内でGemini CLIを起動
-   # またはブラウザ版Claude経由でアクセス
+   # またはブラウザ版Gemini経由でアクセス
    ```
 
 2. **プロジェクトとの連携**
@@ -37,7 +37,7 @@ AITDDの核心となるgemini-2.5-proの効果的な活用方法について説�
 ```
 あなた: "ユーザー管理機能のCRUD操作を実装したい。まずTODOリストを作成してください。"
 
-Claude: "ユーザー管理機能のTODOリストを作成します：
+Gemini: "ユーザー管理機能のTODOリストを作成します：
 1. ユーザーモデルの定義
 2. ユーザー作成のテストケース作成
 3. ユーザー作成機能の実装
@@ -48,7 +48,7 @@ Claude: "ユーザー管理機能のTODOリストを作成します：
 ```
 あなた: "TODOの最初の項目のテストケースを作成してください。"
 
-Claude: "ユーザーモデルのテストケースを作成します：
+Gemini: "ユーザーモデルのテストケースを作成します：
 ```javascript
 describe('User Model', () => {
   test('should create user with valid data', () => {
@@ -62,7 +62,7 @@ describe('User Model', () => {
 ```
 あなた: "このテストを通すためのコードを実装してください。"
 
-Claude: "テストを通すためのユーザーモデルを実装します：
+Gemini: "テストを通すためのユーザーモデルを実装します：
 ```javascript
 class User {
   constructor(name, email) {
