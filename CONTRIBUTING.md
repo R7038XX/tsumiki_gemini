@@ -130,7 +130,7 @@ tsumiki/
 ├── commands/               # コマンドテンプレート（.md, .sh）
 ├── dist/                  # ビルド出力
 ├── package.json
-├── CLAUDE.md              # プロジェクト指示書
+├── GEMINI.md              # プロジェクト指示書
 └── README.md
 ```
 
