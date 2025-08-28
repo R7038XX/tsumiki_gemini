@@ -30,7 +30,7 @@ pnpm prepare                # simple-git-hooksのセットアップ
 
 - **`src/cli.ts`**: CLIエントリーポイント、commanderを使用してコマンド定義
 - **`src/commands/install.tsx`**: React + Inkを使用したインストールコマンドのUI実装
-- **`commands/`**: TsumikiのAI開発フレームワーク用Gemini CLIコマンドテンプレート（`.md`と`.sh`ファイル）
+- **`commands/`**: TsumikiのAI開発フレームワーク用Gemini CLIコマンドテンプレート（`.toml`と`.sh`ファイル）
 - **`dist/`**: ビルド出力、`dist/commands/`にテンプレートがコピーされる
 
 ## 技術スタック
@@ -47,14 +47,14 @@ pnpm prepare                # simple-git-hooksのセットアップ
 ビルド時（`pnpm build`）は以下の処理が実行されます：
 1. `dist`ディレクトリをクリーンアップ
 2. `dist/commands`ディレクトリを作成
-3. `commands/`内の`.md`と`.sh`ファイルを`dist/commands/`にコピー
+3. `commands/`内の`.toml`と`.sh`ファイルを`dist/commands/`にコピー
 4. tsupでTypeScriptコードをESMとCJSの両形式でビルド
 
 ## インストール動作
 
 `tsumiki install`コマンドは以下を実行します：
 1. 現在のディレクトリに`.gemini/commands/`ディレクトリを作成
-2. ビルド済みの`dist/commands/`から全ての`.md`と`.sh`ファイルをコピー
+2. ビルド済みの`dist/commands/`から全ての`.toml`と`.sh`ファイルをコピー
 3. React + Inkでプログレス表示とファイル一覧を表示
 
 ## 品質管理

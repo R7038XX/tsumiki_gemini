@@ -40,7 +40,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist/commands dist/agents && cp ./commands/*.md ./commands/*.sh dist/commands/ 2>/dev/null || true && cp ./agents/*.md dist/agents/ 2>/dev/null || true && tsup",
+    "build": "rm -rf dist && mkdir -p dist/commands dist/agents && cp ./commands/*.toml ./commands/*.sh dist/commands/ 2>/dev/null || true && cp ./agents/*.md dist/agents/ 2>/dev/null || true && tsup",
     "build:run": "pnpm build && node dist/cli.js",
     "check": "biome check src",
     "fix": "biome check src --write",

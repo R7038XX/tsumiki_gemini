@@ -127,7 +127,7 @@ tsumiki_gemini/
 │   ├── cli.ts              # CLIエントリーポイント
 │   └── commands/
 │       └── install.tsx     # インストールコマンドのUI実装
-├── commands/               # コマンドテンプレート（.md, .sh）
+├── commands/               # コマンドテンプレート（.toml, .sh）
 ├── dist/                  # ビルド出力
 ├── package.json
 ├── GEMINI.md              # プロジェクト指示書
