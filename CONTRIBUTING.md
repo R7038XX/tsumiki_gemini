@@ -1,6 +1,7 @@
 # コントリビューションガイド
 
-Tsumikiプロジェクトへのコントリビューションをありがとうございます！このガイドでは、プロジェクトに貢献する方法について説明します。
+Tsumikiプロジェクト(gemini版)へのコントリビューションをありがとうございます！  
+このガイドでは、プロジェクトに貢献する方法について説明します。
 
 ## 開発環境のセットアップ
 
@@ -14,7 +15,7 @@ Tsumikiプロジェクトへのコントリビューションをありがとう�
 1. リポジトリをフォークしてクローンします：
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tsumiki_.gitgemini
+git clone https://github.com/YOUR_USERNAME/tsumiki_gemini.git
 cd tsumiki_gemini
 ```
 
