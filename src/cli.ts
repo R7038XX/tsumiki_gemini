@@ -24,7 +24,7 @@ program
 
 program
   .command("gitignore")
-  .description("Add commands/*.{md,sh} to .gitignore file")
+  .description("Add commands/*.{md,sh,toml} to .gitignore file")
   .action(gitignoreCommand);
 
 program.parse();
