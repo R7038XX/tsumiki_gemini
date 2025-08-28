@@ -26,8 +26,8 @@ pnpm-lock.yaml
 dist/
 *.tsbuildinfo
 
-# Claude Code
-.claude/settings.local.json
+# Gemini Code
+.gemini/settings.local.json
 
 # Others
 tmp/

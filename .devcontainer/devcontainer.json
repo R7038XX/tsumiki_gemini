@@ -35,11 +35,11 @@
   "remoteUser": "node",
   "mounts": [
     "source=claude-code-bashhistory-${devcontainerId},target=/commandhistory,type=volume",
-    "source=claude-code-config-${devcontainerId},target=/home/node/.claude,type=volume"
+    "source=claude-code-config-${devcontainerId},target=/home/node/.gemini,type=volume"
   ],
   "remoteEnv": {
     "NODE_OPTIONS": "--max-old-space-size=4096",
-    "CLAUDE_CONFIG_DIR": "/home/node/.claude",
+    "GEMINI_CONFIG_DIR": "/home/node/.gemini",
     "POWERLEVEL9K_DISABLE_GITSTATUS": "true",
     "GITHUB_TOKEN": "${localEnv:DEVCONTAINER_GITHUB_TOKEN}"
   },
