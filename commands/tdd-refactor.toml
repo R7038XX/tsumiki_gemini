@@ -1,7 +1,6 @@
----
-description: TDDのRefactorフェーズを実行します。テストを通す実装が完了した後、コード品質の改善とリファクタリングを行います。
----
+description = "TDDのRefactorフェーズを実行します。テストを通す実装が完了した後、コード品質の改善とリファクタリングを行います。"
 
+prompt = '''
 # TDD Refactorフェーズ（コード改善）
 
 TDDのRefactorフェーズを実行します。
@@ -306,3 +305,5 @@ function add(firstNumber, secondNumber) {
 - 次のフェーズ「完全性検証」をTODOに追加
 - 改善が必要な箇所がある場合は新たなTODOとして追加
 ```
+
+'''

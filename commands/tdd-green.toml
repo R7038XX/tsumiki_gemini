@@ -1,7 +1,6 @@
----
-description: TDDのGreenフェーズを実行します。失敗しているテストケースを通すための実装を行い、テストが成功することを確認します。
----
+description = "TDDのGreenフェーズを実行します。失敗しているテストケースを通すための実装を行い、テストが成功することを確認します。"
 
+prompt = '''
 # TDD Greenフェーズ（実装）
 
 TDDのGreenフェーズを実行します。
@@ -234,3 +233,5 @@ function {{function_name}}(input) {
 ```
 
 次のステップ: `/tdd-refactor` でコードの品質を改善します。
+
+'''
