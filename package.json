@@ -1,13 +1,13 @@
 {
-  "name": "tsumiki",
+  "name": "tsumiki_gemini",
   "private": false,
-  "version": "0.0.6",
-  "description": "A CLI tool for install tsumiki commands",
+  "version": "0.0.6.1",
+  "description": "A CLI tool for install tsumiki_gemini commands",
   "keywords": [
     "cli",
     "tsumiki",
-    "claude",
-    "claudecode",
+    "gemini",
+    "R7038XX",
     "ai"
   ],
   "homepage": "https://github.com/R7038XX/tsumiki_gemini#readme",
@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "author": {
-    "name": "classmethod"
+    "name": "R7038XX"
   },
   "type": "module",
   "exports": {
