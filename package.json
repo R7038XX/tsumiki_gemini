@@ -45,6 +45,7 @@
     "check": "biome check src",
     "fix": "biome check src --write",
     "prepare": "simple-git-hooks",
+    "prepack": "pnpm build",
     "secretlint": "secretlint --secretlintignore .gitignore **/*",
     "typecheck": "tsgo --noEmit"
   },
