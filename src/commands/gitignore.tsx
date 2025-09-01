@@ -35,7 +35,10 @@ const GitignoreComponent: React.FC = () => {
         // commandsディレクトリ内のすべての.mdファイルと.shファイルを取得
         const files = await fs.readdir(tsumikiDir);
         const targetFiles = files.filter(
-          (file) => file.endsWith(".toml") || file.endsWith(".sh") || file.endsWith(".md"),
+          (file) =>
+            file.endsWith(".toml") ||
+            file.endsWith(".sh") ||
+            file.endsWith(".md"),
         );
 
         // 具体的なファイルパスをルールとして作成

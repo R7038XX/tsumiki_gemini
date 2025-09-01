@@ -45,7 +45,10 @@ const UninstallComponent: React.FC = () => {
         // tsumikiのファイル一覧を取得
         const tsumikiFiles = await fs.readdir(tsumikiDir);
         const tsumikiTargetFiles = tsumikiFiles.filter(
-          (file) => file.endsWith(".md") || file.endsWith(".sh") || file.endsWith(".toml"),
+          (file) =>
+            file.endsWith(".md") ||
+            file.endsWith(".sh") ||
+            file.endsWith(".toml"),
         );
 
         setStatus("removing");

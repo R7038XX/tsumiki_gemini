@@ -42,7 +42,10 @@ const InstallComponent: React.FC = () => {
         // commandsディレクトリ内のすべての.mdファイルと.shファイルを取得
         const commandFiles = await fs.readdir(tsumikiCommandsDir);
         const targetCommandFiles = commandFiles.filter(
-          (file) => file.endsWith(".toml") || file.endsWith(".sh") || file.endsWith(".sh"),
+          (file) =>
+            file.endsWith(".toml") ||
+            file.endsWith(".sh") ||
+            file.endsWith(".md"),
         );
 
         // agentsディレクトリ内のすべての.mdファイルを取得
